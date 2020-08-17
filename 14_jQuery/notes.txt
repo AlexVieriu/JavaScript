@@ -1,0 +1,40 @@
+186. What is jQuery?
+
+JavaScript vs Jquery:
+
+ex1:
+
+JS : document.querySelector("h1");
+
+jQuery : $("h1");
+
+
+ex2:
+
+JS:
+for( i = 0; i<document.querySelector("button".length; i++)){
+    document.querySelectorAll("button")[i].addEventListener("click", function()) {
+        document.querySelector("h1").style.color = "red";
+    }
+}
+
+jQuery:
+
+ex2:
+$("button").click(function () { 
+    $("h1").css("color", "red");
+});
+
+
+187. How to Incorporate jQuery into Websites
+
+https://developers.google.com/speed/libraries
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+-> the order of the jquery <link> matters
+
+
+188. How Minification Works to Reduce File Size
+
+https://minifier.org/

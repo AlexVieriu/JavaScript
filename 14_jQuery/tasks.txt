@@ -1,0 +1,11 @@
+187. How to Incorporate jQuery into Websites
+
+-> link the .css and .js file to the html 
+-> test if it is working
+-> change the <h1> color to "red"
+-> what happend if the link of jQuery is put after the link of JS?
+-> where the jQuery link need to be putted? 
+
+
+188. How Minification Works to Reduce File Size
+

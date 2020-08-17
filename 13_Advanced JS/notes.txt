@@ -1,0 +1,207 @@
+172. Adding Event Listeners to a Button
+
+Elements:  https://developer.mozilla.org/en-US/docs/Web/API/Element -> 174. 
+
+Properties  : .attributes, .classList, .clientHeight(CSS height + CSS padding), .computedRole, .id, .innerHTML, .innerText
+Methods     : .addEventListener(), .getAttribute(), getAttributeNames(), .hasAttribute(), .querySelector(),.querySelectorAll(), .remove() , .setAttribute()
+Events      : cancel, error
+                Clipboard events    : copy, cut, paste
+                Focus events        : blur, focus, focusin, focusout
+                Keyboard events     : keydown, keyup 
+                Mouse events        : click, doubleclick, mousedown, mouseenter, mousemove
+
+
+Events:     https://developer.mozilla.org/en-US/docs/Web/Events
+-> Resource events
+-> Network events
+-> CSS Animation events
+-> Form events
+....
+-> Keyboard events
+-> Mouse events : click, mousedown, select, wheel, mousemove
+-> Drag & Drop events
+
+
+-> querySelector, querySelectorAll
+-> addEventListener
+
+querySelector       : returns the first Element 
+                      -> element = document.querySelector(selectors); 
+
+querySelectorAll    : representing a list of the document's elements that match the specified group of selectors
+                      -> elementList = parentNode.querySelectorAll(selectors); 
+                       
+addEventListener    : sets up a function that will be called based on the event
+                      -> target.addEventListener(type, listener [, options]);
+
+querySelector       : https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+querySelectorAll    : https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+addEventListener    : https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+selectors           : https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors
+
+target.addEventListener(type, listener [, options]);
+
+
+173. Higher Order Functions and Passing Functions as Arguments
+
+shift + enter -> go to the next line in the console
+!! need to press everyline SHITFT + ENTER, if not the code will not respond
+
+!! we need to inspect the page (rigth click -> inspect) so we can use the code, if we try to
+go to the console and write code without inspect, the code on th epage will not be store in the cach 
+memory
+!! $0 works if u inspect the specific element , if not $0 will be applied for the entire <body>
+
+
+Anonimos function:
+
+function() {
+    // code
+}
+
+
+ex: The Calculator
+
+-> function add(num1,num2)
+-> function multiply(num1,num2)
+-> function calculate(num1, num2, operator)
+
+
+175. How to Play Sounds on a Website
+
+HTMLAudioElement 
+
+HTMLMediaElement :  Properties :
+                        -> .audioTracks   : A AudioTrackList that lists the AudioTrack objects contained in the element.
+                        -> .autoplay      : A Boolean that reflects the autoplay HTML attribute, indicating whether playback should automatically begin as soon as enough media is available to do so without interruption.
+                        -> .currentTime   : A double-precision floating-point value indicating the current playback time in seconds
+                    Event handlers :
+                        -> .onencrypted     : Sets the EventHandler called when the media is encrypted.
+                    Methods :
+                        -> .addTextTrack()  : Adds a text track to a media element.
+                        -> .pause()         : Pauses the media playback.          
+                        -> .play()          : Begins playback of the media.
+
+HTMLElement     :   Properties  :
+                        -> .hidden          : Is a Boolean indicating if the element is hidden or not.
+                        -> .accessKey       : Is a DOMString representing the access key assigned to the element.
+                    Event handlers :
+                        -> .oncopy        : Returns the event handling code for the copy event
+                    Methods :
+                        -> .attachInternals()   : Attaches an ElementInternals instance to the custom element.
+                        -> .click()             : Sends a mouse click event to the element.
+                        -> .focus()             : Makes the element the current keyboard focus.
+Element         :   Properties :
+                        -> .attributes      : Returns a NamedNodeMap object containing the assigned attributes of the corresponding HTML element.
+                        -> .className       : Returns a DOMTokenList containing the list of class attributes.         
+                        -> .clientHeight    : Is a DOMString representing the class of the element.
+                    Event handlers:
+                        -> .onfullscreenchange  : An event handler for the fullscreenchange event, which is sent when the element enters or exits full-screen mode. This can be used to watch both for successful expected transitions, but also to watch for unexpected changes, such as when your app is running in the background.
+                    Methods :
+                        -> .addEventListener()      :  Registers an event handler to a specific event type on the element.
+                        -> .animate()               :  A shortcut method to create and run an animation on an element. Returns the created Animation object instance. 
+                        -> .getElementsByClassName():  Returns a live HTMLCollection that contains all descendants of the current element that possess the list of classes given in the parameter.
+Node            : .....
+EventTarge      :   Methods :
+                        -> .addEventListener()      : Registers an event handler of a specific event type on the EventTarget.
+                        -> .removeEventListener()   : Removes an event listener from the EventTarget.
+                        -> .dispatchEvent()         : Dispatches an event to this EventTarget.
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
+
+var audio = new Audio("sounds/tom-1.mp3");
+audio.play();
+
+-> put a background-image to a Button:
+https://www.w3schools.com/cssref/pr_background-image.asp 
+
+ background-image: url("paper.gif");
+
+
+176. A deep Understanding of JavaScript Objects
+
+JS Object:
+
+var bellBoy1 = {
+    name: "Timmy",
+    age: 19,
+    hasWorkPermit: true,
+    languages: ["French", "English"]
+}
+
+Constructor Function:
+
+function BellBoy(name, age, hasWorkPermit, language){
+    this.name = name;
+    this.age = age;
+    this.hasWorkPermit = hasWrokPermit;
+    this.languages = languages;
+}
+
+Initialise Object :
+
+var bellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
+
+
+177. How to Use Switch Statements in Javascript
+
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
+
+
+178. Objects, their Methods and the Dot Notation
+
+function BellBoy(name, age, hasWorkPermit, language){
+    this.name = name;
+    this.age = age;
+    this.hasWorkPermit = hasWrokPermit;
+    this.languages = languages;
+    this.moveSuitcase = function() {
+        alert("May I take your suitcase?");
+        pickUpSuitcase();
+        move();
+    }
+}
+
+
+179. Using Keyboard Event Listeners to Check for Key Presses
+
+var audio = new Audio('audio_file.mp3');
+audio.play();
+
+
+180. Using Keyboard Event Listeners to Check for Key Presses
+
+-> "keydown"
+https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event
+
+document.addEventListener("keydown", function(event){
+console.log(event);
+})
+
+
+// 181. Understanding Callbacks and How to Respond to 
+
+Hiher Order Function: 
+".addEventListener "
+-> function that are able to take functions as inputs
+
+CallBack Function:
+"respondToKey(event)"
+-> wait for the event to happen
+
+EX:
+document.addEventListener("keypress", respondToKey(event));
+
+function respondToKey(event){
+    console.log("Key press."); 
+}
+

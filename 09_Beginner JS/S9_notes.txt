@@ -1,0 +1,184 @@
+107. Introduction to Javascript
+
+-> turn off javascript on the browser
+chrome-> settings -> seach for "javascript"
+
+108. Javascript Alerts
+
+next line : shift + enter
+
+alert("Hello");
+alert("Hello_2");
+
+Sources-> New snippet ->    alert("Hello") -> Run(Ctrl+Enter)
+                            alert("World")
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
+
+109. Data Types
+-> string
+-> numbers
+-> boolean
+
+typeof(23)      : "number" 
+typeof("Angela"): "string"
+typeof(true)    : "boolean"
+
+110. Javascript Variables
+
+Sources-> Index.js -> prompt("What is your name?");
+
+112. JS Variables Exercise Solution 
+
+
+113. Naming Convenstion for JS
+
+CTL+L : clear the code in browser ( the variables declare will remain there)
+CTR+R : refresh page
+
+empty cash : hold left click on the reload page button on the left of the link bar
+
+Camil Case  : myName, yourName;
+Pascal Case : MyName, YourName;
+
+-> can't begin with a number    : 1number, 2123, 3_number
+-> can't contain spaces         : number 1, alex vieriu 
+-> name can only contain        : abc123$_ ( letters, numbers, $ , _ )
+
+
+114. String Length
+
+tweet.length;
+
+
+115. Slicing and Extract Parts of a String
+
+tweet.slice(0,140);
+
+
+116. Changing Casing in Text
+
+tweet.toUpperCase();
+tweet.toLowerCase();
+
+
+118. Basic Arithmetic and the Modulo Operator in Javascript
+
+
+119. Increment and Decrement Expresions
+
+++ , -- , += , -= , *= , /= 
+
+
+120. Functions Part 1: Creating and Calling Functions
+
+
+121. Funciton Part 1 Challange: The Karel Robot
+
+http://stanford.edu/~cpiech/karel/ide.html
+
+ex: 
+function main(){
+  goInCircle();
+  goInCircle();
+  goInCircle();
+  goInCircle();
+}
+
+
+function goInCircle(){
+move();
+turnLeft();
+move();
+turnLeft();
+}
+
+ex_2:
+
+function main(){
+   move4Times();
+   turnLeft();
+   move4Times();
+}
+
+
+function move4Times(){
+move();
+move();
+move();
+move();
+}
+
+ex_3:
+
+function main(){
+   moveOneStep();
+   moveOneStep();
+   moveOneStep();
+   moveOneStep();
+   putBeeper();
+}
+
+function moveOneStep(){
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+}
+
+ex_4:
+
+function main(){
+   repetitive();
+   repetitive(); 
+   lineWith3Beep();
+}
+
+function lineWith3Beep(){  
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+}
+
+function leftTurn(){
+   turnLeft();
+   move();
+   turnLeft();   
+   move();
+}
+
+function lineWith2Beep(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+}   
+
+function rightTurn(){
+   turnRight();
+   move();
+   turnRight();
+}   
+
+function repetitive(){
+   lineWith3Beep();
+   leftTurn();
+   lineWith2Beep();
+   rightTurn();
+}   
+
+
+
+126. Life in Weeks Solution
+
+
+127. Functions Part 3: Outputs & Return Values
+
+
+128. Challenge: Create a BMI Calculator

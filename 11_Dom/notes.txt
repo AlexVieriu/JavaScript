@@ -1,0 +1,150 @@
+148. Adding JS to WebSites
+JS link must be put at the end of the <Body> tag
+ 
+ <script src="index.js"></script>
+
+Recap: inline CSS, internal CSS, external CSS
+
+JS types: inline JS, internal JS, extarnal JS
+
+a. Inline JS (avoid it)
+<body onload="alert('Hello')"></body>
+
+b. Internal JS
+<script> alert("Stai o tzara"); </script>
+
+c. External JS
+document.querySelector("h1").innerHTML ="Good Bye";
+
+
+149. Introduction to DOM
+
+!!! everything that is contain inside of the html document is contain in an object called "document." 
+
+ex:
+document.firstElementChild.firstElementChild.firstElementChild : 
+    <meta charset="UTF-8">    
+
+document.firstElementChild.firstElementChild.lastElementChild:
+    <link rel="stylesheet" href="styles.css">  
+
+ex_1:
+
+var heading = document.firstElementChild.lastElementChild.firstElementChild
+heading.innerHTML = "Good Bye";
+
+ex_2: 
+
+document.querySelector("input").click();
+
+-> go to the document           : document
+-> find the tag <input>         : .querySelector("input")
+-> check/uncheck the "textbox"  : .click(); 
+
+--> Angela example <--
+Properties :
+-> color
+-> number of seats
+-> number of doors
+
+Methods :
+-> brake()
+-> drive()
+-> park()
+ 
+ex_3 : 
+
+-> change the third <li> text to your name
+
+var myName = document.querySelector("ul").lastElementChild
+myName.innerHTML = "Alex"
+
+
+151. Selecting HTML Elements with JS
+
+Error: 
+
+ex1: document.getElementsByTagName("li").style.color = "purple";
+ex2: document.getElementsByClassName("btn").style.color = "red";
+!!! -> we are setting the color to an Array(whitch doesn't work), 
+instead of setting to an element of an Array
+
+
+document.getElemntsByTagName("li");
+document.getElementsByClassName("btn")[0].style.color = "blue";
+document.getElementById("title").innerHTML = "Good Bye";
+
+querySelector :
+document.querySelector("h1");
+document.querySelector("#title");
+document.querySelector("li a");
+document.querySelector("#list a");
+document.querySelector("#list .item"); // i get only the first item 
+
+ex: Change the color of the secound Google link
+
+
+Usage of hierarchical selectors vs combined selectors
+-> hierarchical selectors
+
+document.querySelector(".ul_1 a");
+
+    <ul class= "ul_1">
+        <li class="btn" ><a class= "anchor"href="https://www.google.com/">Google1</a></li>
+        <li >Second</li>
+        <li>Thrid</li>
+    </ul>
+
+    <ul class= "ul_2">
+        <li class="btn" ><a class ="anchor" href="https://www.google.com/">Google2</a></li>
+        <li >Second</li>
+        <li>Thrid</li>
+    </ul>
+
+-> combined selectors
+
+document.querySelector("a.btn_1")
+
+<ul class= "ul">
+        <li class="btn_1" ><a href="https://www.google.com/">Google3</a></li>
+        <li >Second</li>
+        <li>Thrid</li>
+</ul>
+
+<ul class= "ul">
+        <li class="btn_2" ><a href="https://www.google.com/">Google4</a></li>
+        <li >Second</li>
+        <li>Thrid</li>
+</ul>
+
+
+152. Manipulating and Changing Styles of HTML Elements with Javascript
+
+https://www.w3schools.com/jsref/dom_obj_all.asp
+
+-> the values must be represented as strings
+
+document.querySelector("h1").style.fontSize = "5rem";
+document.querySelector("button").style.backgroundColor = "yellow";
+
+
+153. The Separation of Concerns: Structure vs Style vs Behaviour
+
+document.querySelector("button").classList.add("invisible");
+document.querySelector("button").classList.remove("invisible");
+document.querySelector("button").classList.toggle("invisible");
+
+ex:
+document.querySelector("h1").classList.add("huge");
+
+
+154. Text Manipulation and the Text Content Property
+
+document.querySelector("h1").innerHTML;     -->>  "<strong>Hello</strong>"
+document.querySelector("h1").textContent;   -->>  "Hello"
+
+
+155. Manipulating HTML Element Attributes
+
+document.querySelector("a").getAttribute("href");
+document.querySelector("a").setAttribute("href", "https://www.bing.com");

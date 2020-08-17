@@ -1,0 +1,76 @@
+172. Adding Event Listeners to a Button
+
+-> link the JS folder (write an alert to test if all is working )
+-> add an alert to a button 
+-> add an alert to multiple buttons
+-> use different listeners : click, change ( make a checkbox, radiobox, )
+
+
+173. Higher Order Functions and Passing Functions as Arguments
+
+https://en.wikipedia.org/wiki/JavaScript
+
+-> change text : "JavaSCript" -> "AlexScript"
+-> add .addEventListener() to "JavaSCript" : console.log("I got Clicked");
+
+-> create a Calculator: calculator, add, subtract, multiply, divide
+-> use debugger;
+
+
+175. How to Play Sounds on a Website
+
+-> add a sound to the first button: "sounds/tom-1.mp3"
+-> add sound to all the buttons : "sounds/tom-1.mp3"
+-> add backgound-image using CSS 
+-> change the background-color of the letter in white when they are pressed
+
+
+176. A Deeper Understanding of Javascript Objects
+
+-> create an Housekeeper object
+-> create a Constructor Function for Housekeeper objects
+
+
+177. How to Use Switch Statements in Javascript
+
+-> create switch method for all the sounds
+
+
+178. Objects, their Methods and the Dot Notation
+
+-> add a Clean() method to the Housekeeper object, returning an:  
+alert("Cleaning in progress");
+
+
+180. Using Keyboard Event Listeners to Check for Key Presses
+
+-> add sound when presing a key (hint: event.key)
+// press a click
+    // write code......
+// press a key 
+    // write code....
+// function called 
+    // write code...
+
+181. Understanding Callbacks and How to Respond to Events
+
+-> write a anlterative ex to the .eventListener
+-> use debugger
+
+function anotherAddEventListenet(typeOfEvent, callback){
+    // code...
+}
+
+-> input:
+anotherAddEventListenet("keydown", function(event)){
+    console.log(event);
+}
+
+-> output:
+{eventtype:"keydown", key:"p", durationofKeypress:2}
+
+
+182. Adding Animation to Websites
+
+-> add a CSS class to an element using JavaSCript
+-> set Timeout to remove the color and shadow after we pressed the button

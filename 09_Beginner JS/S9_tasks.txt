@@ -1,0 +1,150 @@
+107. Introduction to Javascript
+
+-> turn off javascript on the browser
+
+
+108. Javascript Alerts - Adding Behaviour to Websites
+
+-> add a folder index.js in the browser 
+-> write an alert
+
+
+109. Data Types
+
+-> enumerate 3 of the most common types with examples
+-> return the type of a variable
+
+
+112. Javascript Variables
+
+a = "4";
+b = "8";
+switch the values of "a" and "b"
+
+
+113. Naming and Naming Conventions for Javascript Variables
+
+-> enumerate the 3 types of Naming Conventions
+-> enumerate 2 ex of what names can't contain
+-> enumerat the 4 types that a name can only contain
+
+
+114. Strings
+
+-> create an alert : "Hello there, Alex" that concatenate 2 var of type string
+
+
+115. String Lengths and Retrieving the Number of Characters
+
+var name  = "alex";
+-> write the number of Characters of "name";
+
+-> create a prompt that say how many char they have written 
+and how many Characters they have remaining
+
+
+116. Slicing and Extract Parts of a String
+
+-> copy a text with 100+ Characters into a promp that accept only 200 Characters
+and splice it 
+-> write the solution with a single line of code;
+
+
+117. Challenge: Changing Casing in Text
+
+-> write an example that whatever the user writes in the prompt, 
+the first later wil always startwith uppercase and the rest of the text 
+is lowercase;
+
+
+119. Basic Arithmetic and the Modulo Operator in Javascript
+
+-> calculate the human age of a dog using prompt: humanAge = (dogAge - 2)x4 + 21
+
+
+120. Increment and Decrement Expressions
+
+-> what is the dif between ++x, x++, --y, y++ ?
+-> write x= x+y different
+
+x = 1;
+y = x++;
+y += 1;
+
+y=?
+
+
+121. Functions Part 1: Creating and Calling Functions
+
+-> how we create a function 
+-> how we call a function
+
+
+122. Functions Part 1 Challenge - The Karel Robot
+
+https://stanford.edu/~cpiech/karel/ide.html
+
+-> create goInCircle();
+-> move the karel on the top right of the corner on a 5x5 board
+-> put beepers on the diagonal
+-> create a chess board beeper
+
+
+125. Functions Part 2: Parameters and Arguments
+
+Modify the code so will return the nr bottles you can buy with x money
+
+function getMilk() {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  // buy... 
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+
+
+Life in Weeks Coding Exercise:
+-> write a code that tell us how many days, weeks and months we hvae left 
+if we live until 90 years old
+
+An year has : 365 days, 52 weeks, 12 months
+
+Input:
+lifeInWeeks(56)
+
+Output:
+You have 12410 days, 1768 weeks, and 408 months left.
+
+
+127. Functions Part 3: Outputs & Return Values
+
+-> return the change of money after buying milk 
+
+function calcBottle(startingMoney, costPerBottle){
+    // code....
+}
+
+function calculateChange(startingAmount, costPerBottle){
+    // code...
+}
+
+
+128. Challenge: Create a BMI Calculator
+
+-> create a function that return BMI (use parseInt method)
+
+BMI = wirght/height^2;

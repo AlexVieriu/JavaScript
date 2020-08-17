@@ -1,0 +1,65 @@
+148. Adding Javascript to Websites
+
+-> enumerate the 3 types of JS and where they can be placed in the project 
+    (give examples, which of them you need to avoid it?)
+-> modify the order of JS and CSS link to see the difference
+-> change the "Hello" text with "Good Bye" using JS
+
+
+149. Introduction to the Document Object Model (DOM)
+
+-> change the h1 text to "Good Bye" using .document and .firstElementChild 
+(use a variable to asign the code ": var heading = ... )
+-> change the color of h1 into "red" in the Console using JS 
+-> check and uncheck the "checkbox" using .click() method
+-> change the 3rd <li> to "Alex" using firstElementChild/lastelementChild 
+(comment the <script> so the <ul> is the last element in the <body>)
+
+
+151. Selecting HTML Elements with Javascript
+
+-> what .getElementByTagName does ? (give and ex with it)
+-> set the color "red" to an Array( we will get and error)
+-> set the color "red" to an element of and Array
+-> get the .length of and Array
+-> get the element of a specific class name
+-> get the elements of a specific class name 
+-> get element by an ID, change the text to "Good Bye"
+
+-> hierarchical selectors vs combined selectors? (give ex)
+-> get all the items in the with the class "item"
+
+-> change the secound link of "Google" into color "red" using .querySelector
+(or one of the other properties)
+
+
+152. Manipulating and Changing Styles of HTML Elements with Javascript
+
+-> change the .color, .fontSize , .backGroundColor, .padding, .visibility 
+of and element using JS 
+
+-> change the backgroundcolor of button to "yellow" 
+
+
+153. The Separation of Concerns: Structure vs Style vs Behaviour
+
+-> add a Css class on the Button to make the Button invisible using JS
+-> remove the "invisible" 
+-> what .toggle property does? 
+-> add class .huge to the h1 
+
+text size : 5rem;
+text color : royalblue;
+
+
+154. Text Manipulation and the Text Content Property
+
+-> what is the difference between .innerHTML and .textContent ?(give an ex.)
+
+
+155. Manipulating HTML Element Attributes
+
+-> what is and attribute ? 
+-> get all attributes from an element(ex: <a></a>) 
+-> get one attribute from and element(ex: <a></a>) 
+-> set an attribute

@@ -1,0 +1,44 @@
+131. Random Number Generation in Javascript: Building a Love Calculator
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+Random vs Pseudorandom number generators:
+https://www.youtube.com/watch?v=NE-SpAKDF4o
+
+
+132. Control Statements: Using If-Else Conditionals & Logic
+
+
+133. Comparators and Equality
+
+=== , !== , > , < , >= , <=
+
+
+134. Combining Comparators
+
+&& , || , ! 
+
+
+137. Collections: Working with JavaScript Arrays
+
+var eggs = [1,2,3,4,5];
+eggs.lenght;
+eggs.includes;
+
+Why did the programmer quit his job?
+Because he didn't get arrays.
+
+
+138. Adding Elements and Intermediate Array Techniques
+
+eggs.push   : put an element at the end of the array
+eggs.pop    : remove the last element in the array
+
+
+140. Control Statements: While Loops
+
+
+142. Control Statements: For Loops
+
+
+143. Introducing the Fibonacci Code Challenge

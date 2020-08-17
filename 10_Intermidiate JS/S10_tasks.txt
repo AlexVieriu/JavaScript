@@ -1,0 +1,114 @@
+132. Random Number Generation in Javascript: Building a Love Calculator 
+
+-> create a random number
+-> create a random number between 1 and 6
+-> create a love calculator 
+    -> create 2 prompts so the people can enter there names
+    -> create a random number between 1 and 100 
+    -> write an alert with the random number 
+
+
+133. Control Statements: Using If-Else Conditionals & Logic
+
+-> create and if-else Statement with  1 condition (>70%) and 
+2 msg(one for if , one for else)
+
+
+134. Comparators and Equality
+
+-> enumerate 6 of them 
+-> difference between "===" and "==" ?
+
+
+135. Combining Comparators
+
+-> write the code (if/else) for conditions : >70, >30 and <70, <30
+
+BMI Calculator ADvanced(IF/ELSE)
+
+Write a function that outputs(returns) a different message depending on the BMI
+
+BMI < 19.5 the output should be :"Your BMI is <bmi>, so you are underweight."
+BMI 18.5-24.9 the output should be :"Your BMI is <bmi>, so you have normal weight."
+BMI > 24.9 the output should be :"Your BMI is <bmi>, so you are overweight."
+
+The msg MUST be returned as an output from your function. 
+You should NOT NEED to use alert, promt, or console.log in this challenge.
+IMPORTANT, the message wording has to match precisely for the code to pass the validation. 
+Including punctuation and capitalisation.
+
+BMI = weight/height^2
+
+function bmiCalculator (weight, height) {
+    return interpretation;
+}
+
+
+136. Introducing the Leap Year Code Challenge
+
+Leap year:
+-> divisible by 4
+-> exept every year that is evenly divisible by 100
+-> unless the year is also evenly divisible by 400
+
+function isLeap(year){
+    
+}
+
+
+138. Collections: Working with Javascript Arrays
+
+-> create a script that check if a name is in a array (use alerts)
+
+
+139. Adding Elements and Intermediate Array Techniques
+
+-> write a program that prints the numbers from 1 to 100. 
+-> for multiples of 3 print "Fizz"
+-> for multiples of 5 print "Buzz"
+-> for multples of 3,5 print "Fizz,Buzz" 
+!! use .push method
+
+-> what .push/.pop method does ? how it works ?
+
+
+--> Who's buying lunch? Code challenge <--
+
+-> write a function which will select a random name from a list of names
+-> the person selected buy luch for everyone
+-> use return (no need for alert, prompt or console.log)
+
+Input:
+["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+
+Output:
+Michael is going to buy lunch today!
+
+function whosPaying(names){
+    // code... 
+}
+
+
+141. Control Statements: While Loops
+
+-> write the program
+
+1 bottles of beer on the wall, 1 bottles of beer.
+Take one down and pass it around, 98 bottles of beer on the wall.
+
+.
+.
+.
+
+1 bottle of beer on the wall, 1 bottle of beer.
+Take one down and pass it around, no more bottle of beer on the wall.
+
+No more bottles of beer on the wall, no more bootles of beer.
+Go to the store and buy some more, 99 bottles of beer on the wall.
+
+
+143. Control Statements: For Loops
+
+-> create FizzBuzz with For Loop
+-> use an array 
+-> use .push method

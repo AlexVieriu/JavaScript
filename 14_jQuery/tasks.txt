@@ -9,3 +9,61 @@
 
 188. How Minification Works to Reduce File Size
 
+-> select multiple buttons in jQuery and Js
+
+
+190. Manipulating Styles with jQuery
+
+-> change h1 color usint jQuery
+-> get the  rgb(0,128,0) of color green using jQuery    
+-> get the font-size of h1 using jQuery
+-> add a css class using jQuery
+-> remove a css class using jQuery 
+-> add multiple classes 
+-> see what class has an element 
+
+
+191. Manipulating Text with jQuery
+
+-> change the text for all buttons (2 methods)
+
+
+192. Manipulating Attributes with jQuery 
+
+-> create a <a> block that goes to google and change the link 
+-> create a <img> inline block and get the name of the image location  
+-> get the classes of a tag : <h1>
+
+
+193. Adding Event Listeners with jQuery
+
+-> change the color of the first 3 buttons using JS
+-> change the color of the last 3 buttons using jQuery
+
+-> add eventLisener to h1 , on click change color to purple
+-> remove the purple color after 0.5 sec
+
+-> add an input of type "textbox" and use 
+keydown to write the key on the Console
+
+-> add the keydown to the all document(2 ways)
+
+-->> when i press the key in to all document , will show in the h1
+
+-> add eventLisener using .on() function 
+-> what .off() function do? 
+
+
+194. Adding and Removing Elements with jQuery
+
+-> .before, .after, .prepend, .append 
+
+
+195. Website Animations with jQuery
+
+-> .show, .hide, .toggle
+-> .fadeOut, .fadeIn, .fadeToogle
+-> .slideUp, .slideDown, .slideToogle
+-> .animate
+-> add multiple methods on a click event
+

@@ -38,3 +38,41 @@ https://developers.google.com/speed/libraries
 188. How Minification Works to Reduce File Size
 
 https://minifier.org/
+
+
+189. Selecting Elements with jQuery
+
+js      : document.querySelectorAll("button")
+jquery  : $.("button")
+
+
+190. Manipulating Styles with jQuery
+
+191. Manipulating Text with jQuery
+
+192. Manipulating Attributes with jQuery
+
+-> get atrributes 
+-> set atrributes
+-> get the name of the classes of a tag
+
+
+193. Adding Event Listeners with jQuery
+
+-> we can change the color to purple on clicking the h1
+-> to add eventLisiner with JS to all buttons we need to make a For Loop
+
+
+194. Adding and Removing Elements with jQuery
+
+-> .before, .after, .prepend, .append 
+
+
+195. Website Animations with jQuery
+
+-> .show, .hide, .toggle
+-> .fadeOut, .fadeIn, .fadeToogle
+-> .slideUp, .slideDown, .slideToogle
+-> .animate()                           : only css methods that have numeric values
+
+https://www.w3schools.com/jquery/jquery_ref_effects.asp 

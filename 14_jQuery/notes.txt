@@ -62,6 +62,22 @@ jquery  : $.("button")
 -> we can change the color to purple on clicking the h1
 -> to add eventLisiner with JS to all buttons we need to make a For Loop
 
+-> all the events :
+https://api.jquery.com/category/events/
+
+.on()   -> attach an event handler function for one or more events to the 
+        selected elements. 
+.off()  -> remove an event handler.
+
+$(selector).on(events, function () {
+    
+}); 
+
+$(selector).off(events, function () {
+    
+}); 
+
+
 
 194. Adding and Removing Elements with jQuery
 

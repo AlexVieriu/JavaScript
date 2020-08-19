@@ -5,17 +5,16 @@
 -> change the <h1> color to "red"
 -> what happend if the link of jQuery is put after the link of JS?
 -> where the jQuery link need to be putted? 
-
+-> select <h1></h1> in jQuery and Js
 
 188. How Minification Works to Reduce File Size
 
 -> select multiple buttons in jQuery and Js
 
-
 190. Manipulating Styles with jQuery
 
--> change h1 color usint jQuery
--> get the  rgb(0,128,0) of color green using jQuery    
+-> change h1 color using jQuery
+-> get the current color of h1 using jQuery    
 -> get the font-size of h1 using jQuery
 -> add a css class using jQuery
 -> remove a css class using jQuery 
@@ -26,6 +25,7 @@
 191. Manipulating Text with jQuery
 
 -> change the text for all buttons (2 methods)
+-> what is the difference between 2 methods ?
 
 
 192. Manipulating Attributes with jQuery 
@@ -40,22 +40,24 @@
 -> change the color of the first 3 buttons using JS
 -> change the color of the last 3 buttons using jQuery
 
--> add eventLisener to h1 , on click change color to purple
+-> add onClick eventLisener to h1, change the color to purple (js & jQuery)
 -> remove the purple color after 0.5 sec
 
--> add an input of type "textbox" and use 
-keydown to write the key on the Console
+-> add an input of type "textbox" and use keydown to write 
+the key on the Console
 
 -> add the keydown to the all document(2 ways)
 
--->> when i press the key in to all document , will show in the h1
+-->> when i press the key into all document , will show in the h1
 
--> add eventLisener using .on() function 
--> what .off() function do? 
+-> change the color of h1 on click using .on()
+-> change the color of h1 on mouseover using .on()
+-> what .off() function does? 
 
 
 194. Adding and Removing Elements with jQuery
 
+-> make a button
 -> .before, .after, .prepend, .append 
 
 

@@ -63,9 +63,10 @@ the key on the Console
 
 195. Website Animations with jQuery
 
+-> use the existing buttons to for the events
 -> .show, .hide, .toggle
--> .fadeOut, .fadeIn, .fadeToogle
--> .slideUp, .slideDown, .slideToogle
+-> .fadeOut, .fadeIn, .fadeToggle
+-> .slideUp, .slideDown, .slideToggle
 -> .animate
 -> add multiple methods on a click event
 

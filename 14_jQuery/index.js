@@ -140,3 +140,7 @@
 // $(".button2").on("click", function () {
 //     $("img").slideUp().slideDown().animate({opacity: 0.7});
 // });
+
+// $(".button1").click(function () { 
+//     $("h1").slideUp().slideDown().addClass("font-size-50 margin");    
+// });

@@ -6,8 +6,6 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(selector).text();
-
 $(document).keydown(function () { 
     if (!started){
         $("h1").text("Level " + level);
@@ -16,8 +14,8 @@ $(document).keydown(function () {
     }
 });
 
-$(".btn").click(function() {
-
+$(".btn").click(function () {
+   
     var userChosenColour = $(this).attr("id");
     userClickedPattern.push(userChosenColour);
                 
